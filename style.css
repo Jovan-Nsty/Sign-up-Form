@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Norse-Bold;
+    src: url(font/Norse-Bold.otf);
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 body {
     height: 100vh;
     display: flex;

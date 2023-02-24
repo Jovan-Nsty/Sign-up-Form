@@ -1,3 +1,7 @@
+:root {
+    --clr-green: #596D48;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -43,6 +47,31 @@ body {
 
 .form-section-content>p:nth-child(2) {
     padding-top: 30px;
+}
+
+button {
+    padding: 15px 50px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFF;
+    background-color: var(--clr-green);
+    border: 1px solid var(--clr-green);
+    cursor: pointer;
+}
+
+.form-section-content:nth-child(3) {
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--clr-green);
+}
+
+a:visited {
+    color: var(--clr-green);
 }
 
 p {

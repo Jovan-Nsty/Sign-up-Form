@@ -93,3 +93,8 @@ h1 {
     font-family: Norse-Bold, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 8rem;
 }
+
+img {
+    width: min(140px, 100%);
+    height: min(170px, 100%);
+}

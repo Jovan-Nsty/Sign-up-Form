@@ -122,6 +122,11 @@ input {
     border: 2px solid #8f9196;
 }
 
+input,
+label:hover {
+    cursor: pointer;
+}
+
 input:focus {
     outline: none;
     border: 2px solid var(--clr-blue);

@@ -1,5 +1,6 @@
 :root {
     --clr-green: #596D48;
+    --clr-blue: #60B9EF;
 }
 
 * {
@@ -32,7 +33,7 @@ body {
 .form-section-content {
     height: 33.3%;
     background-color: #f8f5f5c0;
-    padding: 50px 280px 20px 50px;
+    padding: 50px 280px 20px 85px;
 }
 
 .form-section-content:nth-child(1) {
@@ -118,7 +119,12 @@ input {
     padding: 0.4rem;
     border-radius: 0.4rem;
     width: 255px;
-    border: 1px solid #8f9196;
+    border: 2px solid #8f9196;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid var(--clr-blue);
 }
 
 label {

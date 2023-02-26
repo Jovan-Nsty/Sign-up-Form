@@ -30,6 +30,11 @@ body {
     background-size: cover;
 }
 
+#form-section {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-section-content {
     height: 33.3%;
     background-color: #f8f5f5c0;

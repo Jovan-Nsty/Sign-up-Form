@@ -45,6 +45,9 @@ body {
 
 .form-section-content:nth-child(2) {
     background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .form-section-content>p:nth-child(2) {
@@ -111,7 +114,6 @@ img {
     display: flex;
     flex-flow: column wrap;
     width: 40%;
-    margin-bottom: 20px;
 }
 
 input {
@@ -141,7 +143,6 @@ label {
 #para-action {
     font-size: 1.5rem;
     font-weight: bold;
-    position: absolute;
-    top: 350px;
     color: #2b2c2e;
+    margin-bottom: 15px;
 }
